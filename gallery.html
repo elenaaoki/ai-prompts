@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Gallery</title>
+    <link rel="stylesheet" href="resources/css/gallery.css">
+	<link rel="icon" type="image/x-icon" href="images/iconicu.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📸 Prompt Gallery</h1>
+            <p>Koleksi prompt dan gambar siap pakai</p>
+			<p>oleh <a href="https://www.chapteria.com">Chapteria.com</a></p>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="🔍 Cari berdasarkan judul atau prompt...">
+            <button id="clearSearch" class="clear-btn" style="display: none;">✕</button>
+        </div>
+
+        <div id="searchInfo" class="search-info"></div>
+
+        <div id="galleryGrid" class="gallery-grid"></div>
+    </div>
+
+    <a href="https://www.chapteria.com" class="floating-cms-btn" title="Buka CMS">⚙️</a>
+
+    <div id="toast" class="toast">
+        <span id="toastIcon">✓</span>
+        <span id="toastMessage">Tersalin!</span>
+    </div>
+
+    <script src="resources/js/gallery.js"></script>
+</body>
+</html>
